@@ -26,6 +26,7 @@ function App() {
   }
   return (
     <div className="App">
+      <h1>String calculator</h1>
       <div className='calculator'>
         <input value={value} onChange={hanldeChange} placeholder='Enter the string' />
         <button onClick={handleClick}>Add the number</button>
